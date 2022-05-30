@@ -1,0 +1,25 @@
+ANALOG
+Ch 2 Scale 2.00V/, Pos 0.0V, Coup DC, BW Limit Off, Inv Off, Imp 1M Ohm
+     Probe 10.000000 : 1, Skew 0.0s
+
+TRIGGER
+Sweep Mode Auto, Coup DC, Noise Rej Off, HF Rej Off, Holdoff 40.0ns
+Mode Edge, Source Ch 2, Slope Rising, Level 1.42500V
+
+HORIZONTAL
+Mode Normal, Ref Center, Main Scale 5.000ms/, Main Delay 0.0s
+
+ACQUISITION
+Mode Normal, Realtime, Vectors On, Persistence Off
+Antialiasing On
+
+MEASUREMENTS
+Frequency(1), Cur No signal, Mean 13.231kHz, Min 225.57Hz, Max 25.300MHz, Std Dev 517.93kHz, Count 2.405k
++ Duty(1), Cur No signal, Mean 65.494%, Min 0.928%, Max 96.930%, Std Dev 3.498%, Count 2.289k
+Pk-Pk(1), Cur No signal, Mean 1.37V, Min 20mV, Max 30.10V, Std Dev 1.92V, Count 385.2k
+Rise Time(1), Cur No signal, Mean 2.5us, Min 0.0s, Max 3.5566ms, Std Dev 47.2us, Count 166.2k
+Amplitude(2), Cur 570mV, Mean 840mV, Min 10mV, Max 12.62V, Std Dev 800mV, Count 154.2k
+Amplitude(1), Cur No signal, Mean 2.83V, Min 140mV, Max 23.40V, Std Dev 2.11V, Count 107.6k
+Maximum(2), Cur 5.29V, Mean 5.30V, Min 5.22V, Max 5.96V, Std Dev 30mV, Count 1.960k
+Minimum(2), Cur 4.69V, Mean 4.63V, Min 4.35V, Max 4.82V, Std Dev 50mV, Count 884
+

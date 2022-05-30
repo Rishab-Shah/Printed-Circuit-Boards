@@ -1,0 +1,21 @@
+ANALOG
+Ch 1 Scale 5.00V/, Pos 0.0V, Coup DC, BW Limit Off, Inv Off, Imp 1M Ohm
+     Probe 10.000000 : 1, Skew 0.0s
+
+TRIGGER
+Sweep Mode Auto, Coup DC, Noise Rej Off, HF Rej Off, Holdoff 40.0ns
+Mode Edge, Source Ch 1, Slope Rising, Level 2.6875V
+
+HORIZONTAL
+Mode Normal, Ref Center, Main Scale 500.0us/, Main Delay 0.0s
+
+ACQUISITION
+Mode Normal, Realtime, Vectors On, Persistence Off
+Antialiasing On
+
+MEASUREMENTS
+Frequency(1), Cur 457.48Hz, Mean 455.79Hz, Min 452.59Hz, Max 461.39Hz, Std Dev 1.56Hz, Count 7.278k
++ Duty(1), Cur 65.301%, Mean 65.324%, Min 65.277%, Max 65.467%, Std Dev 0.034%, Count 6.837k
+Rise Time(1), Cur  <230ns, Mean 20ns, Min 10ns, Max 30ns, Std Dev 0.0s, Count 36.59k
+Pk-Pk(1), Cur 6.2V, Mean 6.0V, Min 5.9V, Max 6.4V, Std Dev 100mV, Count 22.61k
+
