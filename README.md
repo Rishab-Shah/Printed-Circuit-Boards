@@ -21,10 +21,11 @@ A 4-layer board with following sensors is to be made along with the care for eac
 Labs covered topics to understand following signal integrity characteristics:  
 1. Understanding the breaking point of each trace width based upon current capacity  
 2. Methods to reduce Ground bounce  
-3. Importance of Comon continuous ground plane  
+3. Importance of a common continuous ground plane  
 4. ESD protection of devices  
 5. Methods to reduce EMI  
 6. Importance of differential measurement for eliminating noise  
 7. Importance of Quiet high and Quiet Low in switching noise measurement  
 8. Importance of a debounce circuit  
 9. Designing of a Oscillator circuit and methods to introduce stability by buffered output
+10. Proximity of decoupling capacitor to the power pins
