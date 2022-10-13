@@ -12,7 +12,7 @@ There will be two designs integrated in one – Good Layout and Bad Layout for H
 The Golden arduino should be able to boot after burning the bootloader should be able to execute a test blinky program and have lower switching and ground bounce noise compared to the commercial arduino board.
 
 #### Board 4:  Golden Arduino Shield:  
-A 4-layer board with following sensors is to be made along with the care for each sensor if applicable is mentioned
+A 4-layer board with following sensors is to be made along with the care for each sensor if applicable is mentioned  
 • A temperature-humidity sensor -- GPIO line </br>• A Hall effect magnetic field sensor – Connected to ADC </br>• A CO, carbon monoxide sensor (MQ-7) </br>• A microphone A3 of arduino </br>• At least 4 smart or digital LEDs – GPIO line with a 1K ohm resistor in series </br>• A buzzer – GPIO line with PWM </br>• A 16 bit ADC – ADDRR grounded for address selection </br>• A 12 bit DAC - D0 of Arduino Uno </br>•A heartbeat sensor – LED’s are on the opposite side and are bright and Red in color – 47 Ohm resistor, Connected to ADC   
 
 16-bit ADC to measure the heartbeat sensor and the CO sensor as single ended voltages and the Hall effect sensor as a differential signal. The schematics for each of the sensor is referred from the digikey as well as lecture notes.SCl ,SDA should have a 10K pull-up.Man care is that the headers should be aligned with the arduino uno as well as the shield should not cover the board completely otherwise there will be an access issue to the board.
